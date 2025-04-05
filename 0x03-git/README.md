@@ -55,4 +55,21 @@ Get all changes of the main branch locally (i.e. your `README.md` file will be u
 Create a new file `up_to_date` at the root of your directory and in it, write the git command line used
 Add up_to_date to git, commit (message: “How to be up to date in git”), and push to the origin
 
+##  5. HAAA what did you do???
+
+Collaboration is cool, but not really when you update the same file at the same time…
+
+To illustrate that, please merge the branch `update_script` to `main`: “Cool, all my changes will be now part of the main branch, ready to be deployed!”
+
+**HHHHHHHAAAAAAAA**
+
+> CONFLICT (content): Merge conflict in bash/alx
+
+As you can see, you have conflicts between two branches on the same file.
+
+Your goal now is to resolve conflicts by using the version of the branch `update_script`, and push the result to the origin.
+
+At the end, you should have all your work from the branch `update_script` (new file and two updated files) and all latest `main` commits (new files, delete folder, etc.), without conflicts.
+
+
 ## 
